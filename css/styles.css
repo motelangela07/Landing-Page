@@ -1,0 +1,231 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background:#E9CDB0;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home {
+    background-color: #f2f2f2;
+}
+#about {
+    background-color: #E9CDB0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+#about-content {
+text-align: center;
+word-spacing: 5px;
+line-height: 1.6;
+    
+}
+#about-content > div {
+    flex: 1;
+    margin: 10px;
+}
+
+.column {
+float: left;
+width: 33.33%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+h2{
+    margin-top: 1%;
+    position: left;
+    text-align: center;
+    margin-left: 4%;
+}
+ul{
+    margin-top: 1%;
+    position: left;
+    text-align: center;
+    line-height: 1.2;
+    font-size: medium;
+}
+#portfolio {
+    background-color: #E9CDB0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: top center;
+    margin-bottom: 10%;
+}
+#portfolio-content {
+/* Remove negative margin-top and padding */
+text-align: center;
+word-spacing: 5px;
+line-height: 1.6;
+}
+
+.group-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.row {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-basis: 100%;
+margin: 10px;
+}
+.group-photo img {
+    margin-top: 10%;
+    max-width: 80%;
+    height: auto;
+}
+
+#contact {
+    background-color: #E9CDB0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: top center;
+    margin-bottom: 0;
+}
+#contact-content {
+    padding: -1%;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 1.6;
+}
+/* Styles for Contact Icons and Information */
+.contact-info {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+}
+
+.contact-item {
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+.contact-item i {
+font-size: 24px;
+margin-right: 10px;
+}
+
+.contact-item p {
+font-size: 18px;
+margin: 0;
+}
+/* Styles for Copyright Notice */
+.copyright-notice {
+    text-align: center;
+    background-color: #4F362C; /* Background color for the copyright section */
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    margin-bottom: -60%;
+    
+}
+
+
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 1%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #4F362C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4F362C;
+    display: none;
+}
+nav.active {
+    color: black;
+}
+
+nav ul li.active {
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#home {
+    background-image: url('../img/me1.png');
+    /*dahil nasa loob yung styles.css natin at na sa img fodler yung background natin need mo mag add ng 
+    ..
+    meaning labas ka sa css folder at pumasok ka naman sa img folder makikita mo yung me1.png
+    */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #E9CDB0;
+    position: relative;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    margin-right: -550px;
+    margin-bottom: 105px;
+}
+#space{
+    margin-top:200px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.active {
+    color: red;
+}
+ 
